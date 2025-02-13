@@ -1,0 +1,77 @@
+body{
+    width: 1345px;
+height: 900px;
+background: #FFF;
+}
+.heading{
+    color: var(--Dark-Gray-Dark-Gray-2, #252C32);
+
+/* Headings / Heading 24 Semi Bold */
+font-style: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.456px;
+}
+/* .pics-small{
+    width: 64px;
+height: 80px;
+flex-shrink: 0;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+} */
+.pic-large{
+    width: 545px;
+height: 670px;
+flex-shrink: 0;
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+padding-left: 15px;
+}
+.title{
+color: var(--Dark-Gray-Dark-Gray-2, #252C32);
+
+/* UI / UI Text 14 Semi Bold */
+font-style: 'Inter';
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.084px;
+/* background-color:rgb(231, 231, 240) */
+}
+.btn-xl{
+    display: flex;
+width: 380px;
+padding: 8px 16px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: var(--Primary-PR500, #4094F7);
+}
+.wishlist{
+    align-items:center;
+    color:black;
+    color: var(--Dark-Gray-Dark-Gray-2, #252C32);
+
+/* UI / UI Text 14 Reg */
+font-style: 'Inter';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.084px;
+padding-left: 130px;
+}
+.links{
+    flex: 1 0 0;
+    color: var(--Dark-Gray-Dark-Gray-2, #252C32);
+
+/* UI / UI Text 14 Reg */
+font-style: 'Inter';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.084px;
+}
